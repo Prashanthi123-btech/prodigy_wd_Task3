@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #999eff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#game {
+    display: inline-block;
+    border: 2px solid#333;
+    margin-bottom: 20px;
+}
+
+.board-row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#status {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
